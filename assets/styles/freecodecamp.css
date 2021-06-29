@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+/*Body */
+body {
+   background-color: #1b1b32;
+}
+/* Main*/
+main{
+   font-family: "Lato", sans-serif;
+   width: 700px;
+   margin:0 auto;
+   /* background-color:aqua */
+}
+header{
+   background-color: #0a0a23;
+   color:#f5f6f7;
+   font-family: "Lato", sans-serif;
+   text-align: center;
+   font-size: 30px;
+
+}
+/*  titulos */
+.contenido h1,
+.contenido h2,
+.contenido h3, 
+.contenido h4{
+   font-size:28px;
+   font-weight: 700;
+   color: #f5f6f7;
+   margin-bottom: 30px;
+}
+.contenido-titulos::first-letter{
+   font-size: 30px;
+}
+/* texto lectura experiencia de estudiantes */
+section p{
+   font-size:20px;
+   font-weight: bold;
+   color: #f5f6f7;
+}
+
+.contenido .recorrido{
+   align-content: center;
+}
+/*Iconos*/
+.contenido-icono{
+   width: 86px;
+   margin-right: 40px;
+}
+.contenido:first-child{
+   margin-left: 50px;
+}
+.contenido-icono:last-child{
+   margin: right 0;
+}
+
+.contenido-boton{
+   border: 3px solid rgb(255, 196, 0) ;
+   display:block;
+   width: 100%;
+   padding: 1% 0;
+   margin: 0 auto;
+   text-align: center;
+   background-color: rgb(255, 196, 0);
+   font-family: monospace, sans-serif;
+   text-decoration: none;
+   color: #1b1b32;
+   font-weight: semi-bold;
+   font-size:24px
+}
+.contenido-boton:hover{
+   background-color:#f1a02a;
+   border-color:#f1a02a;
+}
+
+figure img{
+   width: 100%;
+}
+ figcaption{
+   color:#f5f6f7;
+   text-align: center;
+}
+/* .contenido {
+   font-weight: 700;
+   color: #f5f6f7;
+   width: 55%;
+   margin:0 auto;
+   
+} */
+/* contenido-titulos {
+   font-family: "Lato", sans-serif;
+   font-size: 2.8rem;
+}
+
+body {
+   background-color: #1b1b32;
+}
+
+p,
+figcaption {
+   color: #f5f6f7;
+   font-family: "Lato", sans-serif;
+   font-size: 1.25rem;
+   font-weight: 700;
+   line-height: 1.68rem;
+}
+figcaption{
+   text-align: center;
+   font-size: 1.5em;
+}
+
+.boton{
+   width: 100%;
+   background-color: #f1a02a;
+   text-decoration: none;
+   border: 1px solid;
+   color: #1b1b32
+}
+img{
+   width: 100%;
+} */
